@@ -33,9 +33,9 @@ body.loaded {
 
 .loader-wrap .loader-wrap-heading .load-text {
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 200;
-  letter-spacing: 15px;
+  letter-spacing: 20px;
   text-transform: uppercase;
   z-index: 20; }
 
