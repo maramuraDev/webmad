@@ -204,6 +204,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+.sec-head .sub-head.white:after {
+  background: #ffffff;
+}
+
 /* --------------- Works --------------- */
 .work-card .card-item {
   margin-bottom: 30px;

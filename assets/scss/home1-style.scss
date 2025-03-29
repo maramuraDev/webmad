@@ -11,7 +11,6 @@
 $bg-color: var(--bg-color);
 $sub-color: var(--sub-color);
 $text-color: var(--text-color); /* Asignar la variable CSS a una variable SCSS */
-
 $theme-color: var(--theme-color);
 $body-color: var(--font-color);
 $heading-color: var(--heading-color);
@@ -22,9 +21,7 @@ $tablet-sm-screen: 768px;
 $desk-md-screen: 992px;
 $desk-lg-screen: 1300px;
 
-*{
- 
-}
+
 
 // menu
 @import 'menu';
