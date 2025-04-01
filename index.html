@@ -100,7 +100,7 @@
             </div>
             <div class="topnav d-flex align-items-center">
                 <a href="mailto:hello@no-madproject.com"
-                    class="butn butn-rounded moveUP" target="_blank" >
+                    class="butn butn-rounded moveAnimation" target="_blank" >
                     <div class="d-flex align-items-center">
                         <span>Start Project</span>
                         <span class="icon ml-10">
@@ -110,11 +110,12 @@
                 </a>
 
                 <style>
-                    
+
                     /* por alguna razón, la animación si sucede, 
                     pero termina antes de terminar el preloader y revelar 
                     la pantalla */
-                    .moveUP {
+
+                    .moveAnimation {
                         transform: translateX(-200%);
                         animation: slide 4.1s 0s ease-in-out forwards;
                     }
